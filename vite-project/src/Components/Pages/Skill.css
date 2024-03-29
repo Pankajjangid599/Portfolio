@@ -1,0 +1,78 @@
+.fa-certificate{
+    color: gray ;
+    font-size: 1rem;
+    padding-top: 4px;
+  }
+  .skills_content{
+    border: 1px solid rgb(0,0,0,0.1);
+    border-radius: 1.2rem;
+    padding: 2rem 4rem;
+    background-color: rgba(227, 234, 240, 0);
+  }
+  .skill_title{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 500;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(79, 73, 73);
+  }
+  .skills_box{
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;
+  }
+  .skill_group{
+    display: grid;
+    align-items: flex-start;
+    row-gap: 1rem ;
+  }
+  .skill_data{
+    display: flex;
+    column-gap: 0.6rem;
+  }
+  .skills_title{
+    line-height: 20px;
+  }
+  .skills_name{
+    font-size: 0.9rem;
+    color: gray;
+  }
+  @media screen and (max-width:350px) {
+      .about_title{
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+      .skills_box{
+        width: 99%;
+        margin: auto;
+        height: inherit;
+        
+      }
+      .skill_group{
+        width: 99%;
+        
+      }
+      .skills_content{
+        width: 95%;
+        margin-bottom: 40px;
+        padding: 0%;
+        margin: auto;
+        margin-bottom: 40px;
+      }
+      .skill_group{
+        display: grid;
+        column-gap: 0;
+        row-gap: 2rem ;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 40px;
+      }
+      .fa-certificate{
+        font-size: .8rem;
+        padding-top: 5px;
+      }
+      .skills_title{
+        font-size: 1.1rem;
+        
+      }
+  }

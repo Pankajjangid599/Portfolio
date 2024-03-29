@@ -1,0 +1,17 @@
+.testimonial_container{
+    width: 750px;
+    
+}
+.testimonial_card{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 100px;
+}
+.testimonial_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+   
+}

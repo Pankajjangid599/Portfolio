@@ -1,0 +1,99 @@
+ul li{
+    list-style: none;
+    color: gray;
+  
+}
+.services_container {
+    display: grid;
+    grid-template-columns: repeat(3,270px);
+    justify-content: center;
+    column-gap: 1.8rem;
+    
+}
+.services_icon{
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1.5rem;
+    display: block;
+    margin-bottom: 20px;
+}
+.service_title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+.services_content{
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 6rem 0rem 2rem 2.4rem;
+    background-color:rgba(255, 255, 255, 0.57);
+}
+.services_modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    padding: 0 1rem;
+    opacity: 0;
+    visibility: hidden;
+    align-items: center;
+    z-index: 9999;
+    transition: .4s;
+}
+.services_modal-content{
+    width: 500px;
+    position: relative;
+    background-color: whitesmoke;
+    border-radius: 1.5rem;
+    padding: 4.5rem 2.5rem 2.5rem;
+}
+.services_button{
+    color: gray;
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.30rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.fa-arrow-right{
+    transition: 1s;
+    font-size: 1rem;
+    padding-top: 2px;
+    padding-left: 8px;    
+}
+.services_button:hover .fa-arrow-right{
+        transform: translateX(00.25rem);
+        transition: 0.8s;
+}
+.fa-xmark{
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.services_modal-title,.services_modal-desc{
+        text-align: center;
+}
+.services_modal-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.service_modal-service{
+    display: flex;
+    align-items: center;
+    column-gap: .8rem;
+}
+.services_modal-info{
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.active-modal{
+    opacity: 1;
+    visibility: visible;
+}
